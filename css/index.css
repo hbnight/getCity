@@ -1,0 +1,24 @@
+*{padding:0;margin:0}
+html,body{height:100%}
+.flo_rig{float:right}
+.flo_lef{float:left}
+.box_list_title{margin-bottom:0.25rem}
+.box_list_property{height:1rem;line-height:1rem}
+.box_list_pic{margin-top:0.5rem}
+.newAddOneBts{padding:0.25rem 0.75rem;border-top:1px solid #d2d2d2}
+.newAddOneBts:after{content:"";display:block;clear:both;}
+.newAddOneBts span{float:right;height:1rem;line-height:1rem;border-radius:5px;padding:0 0.7rem;margin-left:0.5rem;font-size:0.65rem;border:1px solid #d2d2d2;color:#333}
+
+#cityList{position:fixed;bottom:0;width:100%;background:#fff;z-index:999;overflow:hidden;font-size:0.75rem;border-top:1px solid #ccc}
+.cityListBg{position:fixed;width:100%;height:100%;left:0;top:0;background:#000;opacity:0.1;z-index:998;display:none}
+.clearfix:after{content:"";display:block;clear:both;}
+.cityListMain{position:relative;border:1px solid #ccc;height:10rem}
+.cityListMain:before{content:"";display:block;z-index:9;top:0;left:0;position:absolute;width:100%;height:0px;box-shadow:0 0 4rem 3rem #fff}
+.cityListMain:after{content:"";display:block;z-index:9;bottom:0;left:0;position:absolute;width:100%;height:0px;box-shadow:0 0 4rem 3rem #fff}
+.cityListMetter{width:33.333%;height:10rem;float:left;font-size:0.75rem;overflow:hidden;;}
+.cityListMetterBox{width:100%;padding-right:3rem;overflow:auto;height:100%;-webkit-overflow-scrolling: touch}
+.cityListView{z-index:-1;position:absolute;width:100%;left:0;top:50%;margin-top:-1rem;box-sizing:border-box;height:2rem;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.cityListMetterBox li{font-size:0.75rem;white-space:nowrap;overflow:hidden;height:2rem;line-height:2rem;overflow:hidden;text-overflow:ellipsis;list-style-type:none;text-align:center;}
+.cityHeader{position:relative;z-index:99;height:2rem;box-sizing:border-box;border-bottom:1px solid #d2d2d2;padding:0.25rem 0.75rem;}
+.cityHeader .cityListBtn{height:1.5rem;line-height:1.5rem;}
+.cityHeader input{float:left;width:calc(100% - 4rem);margin-left:0.5rem;;height:100%;border:0;background:#e0e0e0;box-sizing:border-box;vertical-align:middle;padding:0.1rem 0.5rem;border-radius:5px}
